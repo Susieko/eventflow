@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "title": "Fantasy Realm Fair",
+    "category": "Fantasy",
+    "date": "27 September",
+    "time": "10:00",
+    "location": "Haarzuilens",
+    "attendees": 842,
+    "image": "/images/fantasy-realm-fair.png",
+    "venue": "Castle grounds",
+    "description": "Step into a full day of fantasy worlds, costumes, markets, live roleplay and wandering performers.",
+    "price": "€18",
+
+    "tags": [
+      "Fantasy",
+      "LARP",
+      "Costumes",
+      "Market"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Heroes & Comics Convention",
+    "category": "Comic Con",
+    "date": "4 October",
+    "time": "10:00",
+    "location": "Utrecht",
+    "attendees": 1240,
+    "venue": "Expo hall",
+    "description": "A packed convention floor with comics, artists, cosplay, merch, panels and plenty of pop culture chaos.",
+    "price": "€24",
+    "tags": [
+      "Comics",
+      "Cosplay",
+      "Artists",
+      "Merch"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Retro Game Beurs",
+    "category": "Retro",
+    "date": "11 October",
+    "time": "11:00",
+    "location": "Tilburg",
+    "attendees": 318,
+    "venue": "Tilburg event hall",
+    "description": "A day filled with retro games, consoles, collectibles and nostalgic treasures from several generations of gaming.",
+    "price": "€5",
+    "tags": [
+      "Retro games",
+      "Consoles",
+      "Collectibles"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Indie Game Night",
+    "category": "Gaming",
+    "date": "18 October",
+    "time": "18:30",
+    "location": "Eindhoven",
+    "attendees": 174,
+    "venue": "Game café",
+    "description": "Play small indie titles, meet developers and discover weird little games before everyone else does.",
+    "price": "Free",
+    "tags": [
+      "Indie games",
+      "Developers",
+      "Playtesting"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Cosplay & Anime Market",
+    "category": "Anime & Cosplay",
+    "date": "25 October",
+    "time": "10:30",
+    "location": "Breda",
+    "attendees": 563,
+    "venue": "City hall venue",
+    "description": "A colourful market full of anime art, cosplay accessories, creators, prints and character-inspired chaos.",
+    "price": "€12",
+    "tags": [
+      "Anime",
+      "Cosplay",
+      "Artists",
+      "Market"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Dice & Dragons Day",
+    "category": "Tabletop",
+    "date": "1 November",
+    "time": "12:00",
+    "location": "Den Bosch",
+    "attendees": 206,
+    "venue": "Board game café",
+    "description": "A full afternoon of campaigns, one-shots, board games, miniature painting and chaotic dice rolls.",
+    "price": "€8",
+    "tags": [
+      "D&D",
+      "Board games",
+      "Miniatures",
+      "One-shots"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Collectors Galaxy",
+    "category": "Collectibles",
+    "date": "8 November",
+    "time": "10:00",
+    "location": "Tilburg",
+    "attendees": 391,
+    "venue": "Tilburg convention space",
+    "description": "Cards, figures, retro toys, rare finds and enough collector bait to absolutely destroy your wallet.",
+    "price": "€7.50",
+    "tags": [
+      "Trading cards",
+      "Figures",
+      "Retro toys",
+      "Rare finds"
+    ]
+  }
+]

@@ -1,75 +1,70 @@
-# React + TypeScript + Vite
+# EventFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive event discovery app for conventions, fantasy fairs, gaming events, cosplay and collectibles.
 
-Currently, two official plugins are available:
+EventFlow started as a learning project to get more comfortable with modern front-end development. I wanted to build something more substantial than a tutorial project, while focusing on the things I enjoy most: UI design, interaction, responsive layouts and making an interface feel polished.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Built with
 
-## React Compiler
+- React
+- TypeScript
+- Tailwind CSS
+- Motion
+- Lucide React
+- Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Browse and discover events
+- Search events
+- Filter by category
+- Save favourite events
+- Featured event section
+- Event detail modal
+- Create event interface
+- Skeleton loading states
+- Responsive layout for desktop and smaller screens
+- Reusable React components
+- Animated UI interactions
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## What I learned
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+EventFlow was mainly built to improve my understanding of component-based front-end development.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+During the project I worked with:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- splitting an interface into reusable React components
+- TypeScript types for event data and component props
+- managing UI state
+- filtering and searching data
+- conditional rendering
+- responsive interface design
+- loading states and user feedback
+- animations and micro-interactions
+- keeping a larger front-end project organised
 
+Coming from mostly website and WordPress development, this project helped me get more comfortable with building application-style interfaces in React.
+
+## Running locally
+
+Clone the repository and install the dependencies:
+
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+Start the development server:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+npm run dev
 ```
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+## Status
+
+EventFlow is a portfolio and learning project. The main application is complete, although I may continue experimenting with new features and UI improvements as I learn more.

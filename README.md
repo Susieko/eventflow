@@ -1,5 +1,11 @@
 # EventFlow
 
+## Live Demo
+
+[View EventFlow live](https://eventflow-gamma-eight.vercel.app)
+
+![EventFlow preview](./docs/eventflow-preview.png)
+
 A responsive event discovery app for conventions, fantasy fairs, gaming events, cosplay and collectibles.
 
 EventFlow started as a learning project to get more comfortable with modern front-end development. I wanted to build something more substantial than a tutorial project, while focusing on the things I enjoy most: UI design, interaction, responsive layouts and making an interface feel polished.
